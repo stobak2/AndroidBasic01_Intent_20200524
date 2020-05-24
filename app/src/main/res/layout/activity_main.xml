@@ -20,4 +20,26 @@
         android:layout_height="wrap_content"
         android:text="2번 액티비티로 이동" />
 
-</LinearLayout>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="폰번호를 입력해주세요"
+        android:inputType="phone" />
+
+    <TextView
+        android:id="@+id/nickNameTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="닉네임자리"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:textColor="#000000"/>
+
+    <Button
+        android:id="@+id/editNickName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="네임변경하기기"
+
+
+</LnearLayout>
